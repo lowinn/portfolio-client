@@ -2,10 +2,10 @@ import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import type { Metadata } from "next";
 
-import './globals.css';
+import '@/app/globals.css';
 
 export const metadata: Metadata = {
-  title: "LOWIN | Portfolio",
+  title: "Lowin | Portfolio",
   description: "LOWIN Portfolio",
 };
 

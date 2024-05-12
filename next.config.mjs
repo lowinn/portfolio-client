@@ -1,8 +1,11 @@
 import createNextIntlPlugin from 'next-intl/plugin';
+import createMDX from '@next/mdx'
+
 const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
     experimental:{
         turbo:{
             rules:{
@@ -23,4 +26,8 @@ const nextConfig = {
         ];
     }
 };
-export default withNextIntl(nextConfig);
+
+const withMDX = createMDX({
+    // Add markdown plugins here, as desired
+  })
+  export default withNextIntl(withMDX(nextConfig));

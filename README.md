@@ -1,18 +1,54 @@
-# Welcome to My Portfolio!
+# 🌟 Lowin | Portfolio
 
-Hi there! I'm a software engineer with a passion for building innovative and user-friendly applications. This portfolio showcases my skills, experience, and projects. 
+Welcome to Lowin Portfolio! ✨
 
-**Feel free to explore:**
+## 🚀 Introduction
 
-* **Skills:**  A breakdown of my programming languages, frameworks, and technologies.
-* **Projects:** A detailed look at the projects I've worked on, including descriptions, challenges faced, and solutions implemented.  
-* **Experience (Optional):** My professional background and previous work experiences (if applicable).
-* **Contact:** Information on how to reach me for inquiries or job opportunities.
+Portfolio webpage is a lowin project.
 
-**Built with (Optional):**
+## 🎉 Getting Started
 
-Here you can list the technologies used to build your portfolio website (e.g., HTML, CSS, JavaScript framework).
+To get started, follow these simple steps:
 
-**I'm always looking to connect and learn!**
+1. Clone this repository to your local machine.
+2. Switch bracnh to `dev` by running `git checkout dev`
+3. Install dependencies by running `npm install`.
+4. Use the following scripts to run and test the project:
 
-**Let's chat!** (Add your contact information here)
+### 💡 Available Scripts
+
+- **Build:** `npm run build`
+  - This command builds the project.
+  
+- **Start Development Server:** `npm run start:dev`
+  - Start the development server with turbo mode on, running on port 9001.
+  
+- **Start Staging Server:** `npm run start:sit`
+  - Build the project and start a staging server on port 7001.
+  
+- **Start UAT Server:** `npm run start:uat`
+  - Build the project and start a UAT server on port 2001.
+  
+- **Start Production Server:** `npm run start:prod`
+  - Build the project and start a production server on port 8000.
+  
+- **Lint:** `npm run lint`
+  - This command runs linting checks on the project.
+  
+- **Test:** `npm test`
+  - Run all tests using Jest.
+  
+- **Watch Test:** `npm run test:watch`
+  - Run tests in watch mode.
+
+## 🤝 Contributing
+
+We welcome contributions from the community. Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
+
+## 📄 License
+
+This project is licensed under the [License Name] License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## 📧 Contact
+
+If you have any questions or feedback, feel free to contact us at [email@example.com].

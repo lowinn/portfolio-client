@@ -43,6 +43,7 @@
     "**/*.tsx",
     "**/**/*.ts",
     "**/**/*.tsx",
+    "**/**/**/*.mdx",
     "jest.config.ts",
     "tailwind.config.ts",
     ".next/types/**/*.ts"

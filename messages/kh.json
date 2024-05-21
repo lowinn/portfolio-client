@@ -1,5 +1,41 @@
 {
-    "Index": {
-      "title": "សួស្តីពិភពលោក!"
-    }
+  "Index": {
+    "title": "សួស្តីពិភពលោក!"
+  },
+
+  "Home": {
+    "title": "ទំព័រដើម"
+  },
+
+  "About": {
+    "title": "អំពីយើង"
+  },
+
+  "Contact": {
+    "title": "ទំនាក់ទំនង"
+  },
+
+  "Login": {
+    "title": "ចូលគណនី"
+  },
+
+  "Register": {
+    "title": "ចុះឈ្មោះ"
+  },
+
+  "Dashboard": {
+    "title": "ផ្ទាយគ្រប់គ្រង"
+  },
+
+  "Profile": {
+    "title": "ប្រវត្តិរូប"
+  },
+
+  "Settings": {
+    "title": "ការកំណត់"
+  },
+
+  "Logout": {
+    "title": "ចេញពីគណនី"
   }
+}

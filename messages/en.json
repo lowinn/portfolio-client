@@ -1,5 +1,21 @@
 {
     "Index": {
       "title": "Hello world!"
+    },
+
+    "About": {
+      "title": "About us"
+    },
+
+    "Contact": {
+      "title": "Contact us"
+    },
+
+    "NotFound": {
+      "title": "Page not found"
+    },
+
+    "Home": {
+      "title": "Home"
     }
   }

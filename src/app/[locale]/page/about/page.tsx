@@ -36,7 +36,7 @@ export default function page() {
 
       </div>
 
-      <div className=' bg-gray-100 w-full h-[900px]'>
+      <div className='w-full h-[900px]'>
         <div className=' flex'>
 
           <div className=' w-[550px] h-[400px] ml-32'>

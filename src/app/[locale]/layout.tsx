@@ -19,6 +19,7 @@ import Header from '@/app/components/header';
 import Footer from '@/app/components/footer';
 import lang from '@/types/local.type';
 import { ThemeProvider } from 'next-themes';
+import { PHProvider } from '../providers';
 
 export default async function LocaleLayout({
   children,
@@ -32,6 +33,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <body className={`${locale == lang.EN? inter.className : notoSansKhmer.className}  m-6`}>
+        <PHProvider>
         <NextIntlClientProvider messages={messages}>
           <Header/>
           <ThemeProvider>
@@ -39,6 +41,7 @@ export default async function LocaleLayout({
           </ThemeProvider>
           <Footer/>
         </NextIntlClientProvider>
+        </PHProvider>
       </body>
     </html>
   );

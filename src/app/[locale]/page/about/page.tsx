@@ -10,19 +10,19 @@ export default function page() {
   return (
 
     <div className=''>
-      <div className=' w-full h-[400px] flex'>
-        <div className='w-[550px] h-[400px]  ml-40'>
+      <div className=' w-full h-[400px] flex flex-col lg:flex-row lg:flex-wrap lg:justify-between'>
+        <div className='w-full sm:w-[500px] h-[400px] sm:h-[200px] ml-0 sm:ml-10 md:ml-36'>
           <Image
             src="/image.png"
             alt="GFG logo imported from public directory"
-            className=' rounded-full mt-24'
+            className=' rounded-full mt-24 lg:mt-8'
             width={50}
             height={8}
           />
-          <h5 className=' mt-4'>Hello I'm Lowin </h5>
+          <h5 className=' mt-4 lg:mt-5'>Hello I'm Lowin </h5>
         </div>
-        <div className='w-[550px] h-[400px]'>
-          <h5 className=' mt-28'>A website designer in Indonesia</h5>
+        <div className='w-fullsm:w-[500px] h-[550px] ml-0 sm:h-[200px] '>
+          <h5 className=' mt-5 sm:mt-10'>A website designer in Indonesia</h5>
           <p className='text-gray-700'>Passionate Creating Experience for designer!</p>
 
           <button className='border  w-32 h-9 rounded-xl  bg-gray-950 mt-7 text-white p-1'>Talk with me </button>

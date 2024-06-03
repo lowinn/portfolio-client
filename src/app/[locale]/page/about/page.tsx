@@ -104,8 +104,6 @@ export default function page() {
           </div>
 
         </div>
-
-        {/* i can help u with */}
         <div className=' w-[1250px] h-16 mt-20 flex justify-between ml-32 '>
           <p className=' font-bold text-xl'> I can Help You With</p>
           <button className='border rounded-lg  w-32 h-9  hover:border-red-600 '>See my work</button>
@@ -143,14 +141,9 @@ export default function page() {
         </div>
 
       </div>
-
-      {/* 
-      Experience with  */}
-
       <div className='w-[1150px] h-[350px] mt-8 ml-36 flex gap-14'>
 
         <div className='  w-[500px] h-[300px]'>
-
 
           <h3 className='text-xl '>Experience with Mobile MCNC of <br /> projects and industries</h3>
           <p className=' mt-3 text-gray-400'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore rerum sequi ea soluta totam quod.</p>
@@ -195,8 +188,7 @@ export default function page() {
         </div>
 
       </div>
-
-      <div className=' bg-gray-200 w-full h-[2000px]'>
+      <div className=' bg-gray-200 w-full h-[1670px]'>
         <h5 className=' text-2xl  font-bold ml-[620px] p-3'>Select work</h5>
 
         <div className='w-full h-[620px] flex gap-6  mt-8'>
@@ -249,7 +241,6 @@ export default function page() {
 
         </div>
 
-
         <div className='w-full h-[620px] flex gap-6  mt-3'>
 
           <div className=' bg-white w-[560px] h-[610px] p-3 rounded-xl ml-32 shadow-xl '>
@@ -299,9 +290,6 @@ export default function page() {
 
 
         </div>
-
-
-
 
         <div className=' mt-8 w-[800px] h-[350px] ml-[330px]'>
 
@@ -374,29 +362,53 @@ export default function page() {
 
           </div>
 
-
-
-
         </div>
 
+      </div>
+      <div className='  w-full h-[190px]'>
+        <div className=' h-[190px] w-[350px] ml-[490px]'>
+          <div className=' ml-16'>
+            <p className=' text-xs text-gray-500 p-3'>Lorem ipsum dolor sit amet.</p>
 
+          </div>
+          <div className=' ml-14'>
+            <h5 className=' text-2xl font-bold text-gray-700 '>Let Talk With Me!</h5>
+          </div>
 
+          <div className=' ml-20 mt-10'>
+            <button className=' bg-indigo-500 text-white  w-36 h-9 rounded-xl p-2 hover:bg-violet-400'>Tab to continue</button>
+          </div>
 
-
-
-
-
-
-
-
-
-
-
-
+          <div className=' ml-[85px]'>
+            <p className=' text-xs text-gray-900 p-3'>Lorem ipsum dolor.</p>
+          </div>
+        </div>
 
       </div>
+      <div className=' bg-gray-200 w-full h-[35px] justify-between flex'>
 
+        <div className=' w-[550px] h-[90px]'>
 
+          <div>
+            <ul className='flex gap-6 ml-48 font-bold'>
+              <li>welcome </li>
+              <li>My page</li>
+            </ul>
+          </div>
+        </div>
+        <div className='w-[500px] h-[90px]'>
+          <div>
+            <ul className='flex gap-6 ml-24'>
+              <li>welcome </li>
+              <li>My page</li>
+              <li>Hello Lowin</li>
+              <li>About Us</li>
+
+            </ul>
+          </div>
+        </div>
+
+      </div>
     </div>
   )
 }

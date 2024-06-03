@@ -104,11 +104,9 @@ export default function page() {
           </div>
 
         </div>
-
-        {/* i can help u with */}
         <div className=' w-[1250px] h-16 mt-20 flex justify-between ml-32 '>
           <p className=' font-bold text-xl'> I can Help You With</p>
-          <button className='border rounded-lg  w-32 h-9  hover:border-red-600'>See my work</button>
+          <button className='border rounded-lg  w-32 h-9  hover:border-red-600 '>See my work</button>
         </div>
         <div className='flex gap-4'>
 
@@ -143,18 +141,13 @@ export default function page() {
         </div>
 
       </div>
-
-      {/* 
-      Experience with  */}
-
-      <div className='  bg-white w-[1150px] h-[350px] mt-8 ml-36 flex gap-14'>
+      <div className='w-[1150px] h-[350px] mt-8 ml-36 flex gap-14'>
 
         <div className='  w-[500px] h-[300px]'>
 
-
           <h3 className='text-xl '>Experience with Mobile MCNC of <br /> projects and industries</h3>
           <p className=' mt-3 text-gray-400'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore rerum sequi ea soluta totam quod.</p>
-          <button className='border  w-32 h-9 rounded-xl p-2 bg-slate-500 mt-6'>See my work</button>
+          <button className='border  w-32 h-9 rounded-xl p-2 bg-slate-500 mt-6 text-white'>See my work</button>
           <button className='border  w-36 h-9 rounded-xl p-2 ml-36'>Tab to continue</button>
 
         </div>
@@ -195,20 +188,227 @@ export default function page() {
         </div>
 
       </div>
+      <div className=' bg-gray-200 w-full h-[1670px]'>
+        <h5 className=' text-2xl  font-bold ml-[620px] p-3'>Select work</h5>
 
-      <div className=' bg-gray-300 w-full h-[800px]'>
-        <h5 className=' text-2xl  font-bold ml-[620px]'>Select work</h5>
+        <div className='w-full h-[620px] flex gap-6  mt-8'>
 
-        <div className=' bg-red-400 w-full h-[600px]'>
+          <div className=' bg-white w-[560px] h-[610px] p-3 rounded-xl ml-32 shadow-xl '>
+            <div>
+              <Image
+                src="/1.jpg"
+                alt="GFG logo imported from public directory"
+                className=' mt-2 rounded-xl'
+                width={530}
+                height={290}
+              />
+            </div>
 
-          <div className=' bg-violet-400 w-[500px] h-[550px]'>1</div>
-          <div>2</div>
+            <h5 className=' text-2xl font-bold mt-2'>MCNC</h5>
+
+            <h6 className=' text-xl text-gray-600'>The company</h6>
+
+            <p className=' text-gray-400 mt-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo quas ipsam facilis doloribus rem reiciendis
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, sequi?
+            </p> <br />
+            <button className='border p-1 rounded-lg w-44 bg-slate-700 text-white'> Select work</button>
+
+          </div>
+
+
+          <div className=' bg-white w-[560px] h-[610px] p-3 rounded-xl  shadow-xl '>
+            <div>
+              <Image
+                src="/1.jpg"
+                alt="GFG logo imported from public directory"
+                className=' mt-2 rounded-xl'
+                width={530}
+                height={290}
+              />
+            </div>
+
+            <h5 className=' text-2xl font-bold mt-2'>MCNC</h5>
+
+            <h6 className=' text-xl text-gray-600'>The company</h6>
+
+            <p className=' text-gray-400 mt-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo quas ipsam facilis doloribus rem reiciendis
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, sequi?
+            </p> <br />
+            <button className='border p-1 rounded-lg w-44 bg-slate-700 text-white'> Select work</button>
+
+          </div>
 
 
         </div>
+
+        <div className='w-full h-[620px] flex gap-6  mt-3'>
+
+          <div className=' bg-white w-[560px] h-[610px] p-3 rounded-xl ml-32 shadow-xl '>
+            <div>
+              <Image
+                src="/1.jpg"
+                alt="GFG logo imported from public directory"
+                className=' mt-2 rounded-xl'
+                width={530}
+                height={290}
+              />
+            </div>
+
+            <h5 className=' text-2xl font-bold mt-2'>MCNC</h5>
+
+            <h6 className=' text-xl text-gray-600'>The company</h6>
+
+            <p className=' text-gray-400 mt-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo quas ipsam facilis doloribus rem reiciendis
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, sequi?
+            </p> <br />
+            <button className='border p-1 rounded-lg w-44 bg-slate-700 text-white'> Select work</button>
+
+          </div>
+
+
+          <div className=' bg-white w-[560px] h-[610px] p-3 rounded-xl  shadow-xl '>
+            <div>
+              <Image
+                src="/1.jpg"
+                alt="GFG logo imported from public directory"
+                className=' mt-2 rounded-xl'
+                width={530}
+                height={290}
+              />
+            </div>
+
+            <h5 className=' text-2xl font-bold mt-2'>MCNC</h5>
+
+            <h6 className=' text-xl text-gray-600'>The company</h6>
+
+            <p className=' text-gray-400 mt-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo quas ipsam facilis doloribus rem reiciendis
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, sequi?
+            </p> <br />
+            <button className='border p-1 rounded-lg w-44 bg-slate-700 text-white'> Select work</button>
+
+          </div>
+
+
+        </div>
+
+        <div className=' mt-8 w-[800px] h-[350px] ml-[330px]'>
+
+          <div className=' flex w-[690px] ml-[50px] gap-5'>
+
+            <div>
+              <Image
+                src="/website-ui2.jpg"
+                alt="GFG logo imported from public directory"
+                className=' mt-2 rounded-lg'
+                width={110}
+                height={110}
+              /></div>
+
+            <div>
+
+              <Image
+                src="/website-ui2.jpg"
+                alt="GFG logo imported from public directory"
+                className=' mt-2 rounded-lg'
+                width={110}
+                height={110}
+              />
+            </div>
+
+            <div>
+
+              <Image
+                src="/website-ui2.jpg"
+                alt="GFG logo imported from public directory"
+                className=' mt-2 rounded-lg'
+                width={140}
+                height={120}
+              />
+
+            </div>
+            <div>
+              <Image
+                src="/website-ui2.jpg"
+                alt="GFG logo imported from public directory"
+                className=' mt-2 rounded-lg'
+                width={110}
+                height={110}
+              />
+            </div>
+
+            <div>
+              <Image
+                src="/website-ui2.jpg"
+                alt="GFG logo imported from public directory"
+                className=' mt-2 rounded-lg'
+                width={110}
+                height={110}
+              />
+            </div>
+
+
+          </div>
+
+
+
+          <div className=' mt-6'>
+
+            <p className=' ml-24 text-gray-500'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil repellendus </p>
+            <p className='  ml-32 text-gray-500'>voluptatem harum voluptate excepturi, tenetur veniam, animi </p>
+            <p className='  ml-56 text-gray-500'>cupiditate officiis minus eum sit vitae </p>
+            <p className='  ml-60 text-gray-500'>  rerum autem aliquid qui ipsa</p>
+            <p className=' ml-64 text-gray-500'>Lorem, ipsum dolor sit </p>
+
+
+          </div>
+
+        </div>
+
       </div>
+      <div className='  w-full h-[190px]'>
+        <div className=' h-[190px] w-[350px] ml-[490px]'>
+          <div className=' ml-16'>
+            <p className=' text-xs text-gray-500 p-3'>Lorem ipsum dolor sit amet.</p>
 
+          </div>
+          <div className=' ml-14'>
+            <h5 className=' text-2xl font-bold text-gray-700 '>Let Talk With Me!</h5>
+          </div>
 
+          <div className=' ml-20 mt-10'>
+            <button className=' bg-indigo-500 text-white  w-36 h-9 rounded-xl p-2 hover:bg-violet-400'>Tab to continue</button>
+          </div>
+
+          <div className=' ml-[85px]'>
+            <p className=' text-xs text-gray-900 p-3'>Lorem ipsum dolor.</p>
+          </div>
+        </div>
+
+      </div>
+      <div className=' bg-gray-200 w-full h-[35px] justify-between flex'>
+
+        <div className=' w-[550px] h-[90px]'>
+
+          <div>
+            <ul className='flex gap-6 ml-48 font-bold'>
+              <li>welcome </li>
+              <li>My page</li>
+            </ul>
+          </div>
+        </div>
+        <div className='w-[500px] h-[90px]'>
+          <div>
+            <ul className='flex gap-6 ml-24'>
+              <li>welcome </li>
+              <li>My page</li>
+              <li>Hello Lowin</li>
+              <li>About Us</li>
+
+            </ul>
+          </div>
+        </div>
+
+      </div>
     </div>
   )
 }

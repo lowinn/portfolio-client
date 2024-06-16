@@ -365,7 +365,9 @@ export default function page() {
         </div>
 
       </div>
-      <div className='  w-full h-[190px]'>
+
+
+      <div className=' bg-white w-full h-[190px]'>
         <div className=' h-[190px] w-[350px] ml-[490px]'>
           <div className=' ml-16'>
             <p className=' text-xs text-gray-500 p-3'>Lorem ipsum dolor sit amet.</p>
@@ -385,7 +387,7 @@ export default function page() {
         </div>
 
       </div>
-      <div className=' bg-gray-200 w-full h-[35px] justify-between flex'>
+      <div className=' bg-gray-200  w-full h-[35px] justify-between flex'>
 
         <div className=' w-[550px] h-[90px]'>
 
@@ -409,6 +411,11 @@ export default function page() {
         </div>
 
       </div>
+
+
+
+
+
     </div>
   )
 }
